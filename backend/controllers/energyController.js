@@ -4,7 +4,6 @@ const geminiService = require('../services/geminiService');
 const { calculateCost } = require('../utils/energyUtils');
 
 // Controller functions
-
 // Log energy usage
 const logEnergyUsage = async (req, res) => {
   try {
@@ -35,7 +34,7 @@ const logEnergyUsage = async (req, res) => {
   }
 };
 
-// Get energy usage data
+// Get energy usage data 
 const getEnergyUsage = async (req, res) => {
   try {
     const { userId } = req.query;
