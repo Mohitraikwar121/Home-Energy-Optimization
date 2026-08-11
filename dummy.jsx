@@ -160,4 +160,3 @@
       "features": ["48V Battery", "LCD Display", "Fat Tires"]
     }
   ]
-  
