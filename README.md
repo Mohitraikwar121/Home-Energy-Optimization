@@ -14,7 +14,6 @@ The system analyzes factors such as:
 - Potential energy savings
 
 The goal is to help households make data-driven decisions for smarter and more sustainable energy consumption.
-
 🎯 Objectives
 - Monitor household energy consumption.
 - Identify high-energy-consuming appliances.
@@ -25,15 +24,12 @@ The goal is to help households make data-driven decisions for smarter and more s
 
 🚀 Key Features
 1. Energy Consumption Analysis
-
 Analyze historical and simulated electricity-consumption data to understand household usage patterns.
 
 2. Appliance-Level Analysis
-
 Identify which appliances contribute the most to overall energy consumption.
 
 3. AI-Based Recommendations
-
 Generate personalized recommendations such as:
 
 - Reduce usage of high-consumption appliances.
@@ -42,15 +38,12 @@ Generate personalized recommendations such as:
 - Optimize usage schedules.
 
 4. Cost Estimation
-
 Estimate electricity expenses based on energy consumption and applicable tariff assumptions.
 
 5. Energy-Saving Insights
-
 Calculate potential energy and cost savings from recommended changes.
 
 6. Interactive Dashboard
-
 Visualize consumption using charts and key performance indicators.
 
 🧠 How It Works
@@ -113,7 +106,6 @@ The system can generate insights such as:
 
 🌱 Optimized consumption can also reduce unnecessary
    energy usage and associated emissions.
-
 🔮 Future Scope
 - Integration with IoT smart meters.
 - Real-time electricity monitoring.
@@ -127,7 +119,6 @@ The system can generate insights such as:
 
 🌱 Impact
 The project aims to contribute toward:
-
 - Reduced electricity consumption
 - Lower household energy costs
 - Improved energy efficiency
