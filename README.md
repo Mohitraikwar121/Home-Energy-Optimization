@@ -2,6 +2,7 @@
 
 An AI-powered Home Energy Optimization System that analyzes household energy consumption and provides intelligent recommendations to reduce electricity usage, lower costs, and improve energy efficiency.
 
+
 📌 Overview
 Home Energy Optimization uses simulated household energy-consumption data to identify inefficient usage patterns and suggest practical actions.
 The system analyzes factors such as:
@@ -46,6 +47,7 @@ Calculate potential energy and cost savings from recommended changes.
 6. Interactive Dashboard
 Visualize consumption using charts and key performance indicators.
 
+
 🧠 How It Works
 
 Energy Consumption Data
@@ -62,6 +64,7 @@ Energy Consumption Data
           ↓
  Cost & Energy Savings
 
+
 🛠️ Technology Stack
 Component| Technology
 Programming Language| Python
@@ -70,6 +73,7 @@ Machine Learning| Scikit-learn
 Data Visualization| Matplotlib
 Backend / Application| Python-based application
 Dataset| Simulated Home Energy Data
+
 
 📂 Project Structure
 
@@ -94,6 +98,7 @@ home-energy-optimization/
 ├── README.md
 └── LICENSE
 
+
 📊 Example Insights
 The system can generate insights such as:
 
@@ -103,6 +108,7 @@ The system can generate insights such as:
    can reduce electricity costs.
 
 📉 Estimated potential monthly saving: 8–15%
+
 
 🌱 Optimized consumption can also reduce unnecessary
    energy usage and associated emissions.
@@ -117,6 +123,7 @@ The system can generate insights such as:
 - Personalized ML models for individual households.
 - Carbon-footprint tracking.
 
+
 🌱 Impact
 The project aims to contribute toward:
 - Reduced electricity consumption
@@ -125,12 +132,15 @@ The project aims to contribute toward:
 - Reduced carbon emissions
 - Greater awareness of sustainable energy usage
 
+
 👥 Team
 Project: Home Energy Optimization
 Domain: AI / Machine Learning / Sustainable Energy
 
+
 📄 License
 This project is developed for educational and hackathon purposes. You are free to modify and extend it for further experimentation and development.
+
 
 ⭐ Support
 If you find this project useful, consider giving the repository a ⭐ and contributing ideas for improving intelligent home energy management.
