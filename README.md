@@ -8,6 +8,35 @@
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-F7931E?logo=scikit-learn)](https://scikit-learn.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)](https://matplotlib.org/)
 [![License](https://img.shields.io/badge/License-Educational-green)](#-license)
+[![Status](https://img.shields.io/badge/Status-Hackathon%20Prototype-orange)](#-hackathon-context)
+
+---
+
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Objectives](#-objectives)
+- [Key Features](#-key-features)
+- [System Workflow](#-system-workflow)
+- [Technology Stack](#️-technology-stack)
+- [Project Structure](#-project-structure)
+- [Example Insights](#-example-insights)
+- [Example Dashboard KPIs](#-example-dashboard-kpis)
+- [AI/ML Component](#-aiml-component)
+- [Data Pipeline](#-data-pipeline)
+- [Impact](#-impact)
+- [Future Scope](#-future-scope)
+- [Installation & Setup](#️-installation--setup)
+- [Requirements](#-requirements)
+- [Sample Use Case](#-sample-use-case)
+- [Project USP](#-project-usp)
+- [Hackathon Context](#-hackathon-context)
+- [Team](#-team)
+- [Disclaimer](#-disclaimer)
+- [License](#-license)
+- [Support](#-support)
+
+---
 
 ## 📌 Overview
 
@@ -21,103 +50,102 @@ Instead of simply showing electricity usage, the system focuses on answering:
 
 ### The system analyzes:
 
-* ⚡ Appliance-wise electricity consumption
-* 📅 Daily, weekly, and monthly usage
-* 🕒 Peak and off-peak consumption
-* 📊 Historical consumption patterns
-* 💰 Estimated electricity costs
-* 📉 Potential energy savings
-* 🌱 Potential sustainability impact
+| Category | Description |
+|---|---|
+| ⚡ Appliance-wise consumption | Breaks down usage by individual appliance |
+| 📅 Time-based usage | Daily, weekly, and monthly consumption trends |
+| 🕒 Peak and off-peak usage | Identifies high-demand vs. low-demand periods |
+| 📊 Historical patterns | Detects recurring consumption behavior |
+| 💰 Estimated electricity costs | Converts usage into monetary terms |
+| 📉 Potential energy savings | Quantifies possible efficiency gains |
+| 🌱 Sustainability impact | Estimates environmental benefit of savings |
 
-# 🎯 Objectives
+---
+
+## 🎯 Objectives
 
 The primary objectives of the project are to:
 
-* Monitor household electricity consumption.
-* Identify high-energy-consuming appliances.
-* Detect inefficient consumption patterns.
-* Analyze peak and off-peak usage.
-* Estimate electricity expenses.
-* Generate AI-assisted energy-saving recommendations.
-* Estimate potential energy and cost savings.
-* Encourage sustainable and data-driven energy consumption.
+- Monitor household electricity consumption
+- Identify high-energy-consuming appliances
+- Detect inefficient consumption patterns
+- Analyze peak and off-peak usage
+- Estimate electricity expenses
+- Generate AI-assisted energy-saving recommendations
+- Estimate potential energy and cost savings
+- Encourage sustainable and data-driven energy consumption
 
+---
 
-# 🚀 Key Features
+## 🚀 Key Features
 
-## 1. ⚡ Energy Consumption Analysis
+### 1. ⚡ Energy Consumption Analysis
 
 Analyze historical and simulated electricity-consumption data to understand how energy is being consumed over time.
 
 The system can identify:
 
-* High-consumption days
-* Low-consumption periods
-* Daily usage trends
-* Monthly consumption patterns
-* Sudden consumption increases
+- High-consumption days
+- Low-consumption periods
+- Daily usage trends
+- Monthly consumption patterns
+- Sudden consumption increases
 
-## 2. 🔌 Appliance-Level Analysis
+### 2. 🔌 Appliance-Level Analysis
 
 Break down total household consumption by individual appliances.
 
-Example:
-
-
+```
 Air Conditioner     ████████████████████  38%
 Refrigerator        ████████████          24%
 Water Heater        █████████             18%
 Washing Machine     █████                  10%
 Lighting            ████                    7%
 Others              ██                      3%
+```
 
 This makes it easier to identify the appliances responsible for the largest share of energy usage.
 
-## 3. 🧠 AI-Based Recommendation Engine
+### 3. 🧠 AI-Based Recommendation Engine
 
-The recommendation engine converts consumption patterns into actionable suggestions.
+The recommendation engine converts consumption patterns into actionable suggestions, such as:
 
-Examples:
-
-* Reduce excessive air-conditioner usage.
-* Shift high-power appliance usage to suitable hours.
-* Avoid unnecessary standby consumption.
-* Optimize appliance operating schedules.
-* Investigate unusual consumption spikes.
-* Reduce repeated usage during high-demand periods.
+- Reduce excessive air-conditioner usage
+- Shift high-power appliance usage to suitable hours
+- Avoid unnecessary standby consumption
+- Optimize appliance operating schedules
+- Investigate unusual consumption spikes
+- Reduce repeated usage during high-demand periods
 
 The goal is to transform **raw consumption data into practical decisions**.
 
-## 4. 💰 Electricity Cost Estimation
+### 4. 💰 Electricity Cost Estimation
 
-The system estimates electricity expenses using consumption data and configurable tariff assumptions.
+The system estimates electricity expenses using consumption data and configurable tariff assumptions. Users can compare current consumption with optimized scenarios to understand the possible financial impact.
 
-Users can compare current consumption with optimized scenarios to understand the possible financial impact.
-
-## 5. 📉 Energy & Cost Savings Analysis
+### 5. 📉 Energy & Cost Savings Analysis
 
 The system estimates how much energy and money could potentially be saved by following recommended actions.
 
-Example:
-
 > **Note:** Savings are estimates based on simulated data and assumed consumption/tariff conditions.
 
-## 6. 📊 Interactive Dashboard
-The dashboard provides visual insights into household energy consumption.
+### 6. 📊 Interactive Dashboard
 
-Potential visualizations include:
-* 📈 Daily consumption trends
-* 📊 Appliance consumption comparison
-* 🕒 Peak vs. off-peak usage
-* 💰 Estimated electricity cost
-* 📉 Potential savings
-* ⚠️ High-consumption alerts
-* 🌱 Sustainability indicators
+The dashboard provides visual insights into household energy consumption, including:
 
+- 📈 Daily consumption trends
+- 📊 Appliance consumption comparison
+- 🕒 Peak vs. off-peak usage
+- 💰 Estimated electricity cost
+- 📉 Potential savings
+- ⚠️ High-consumption alerts
+- 🌱 Sustainability indicators
 
-# 🧠 System Workflow
+---
 
+## 🧠 System Workflow
 
+```
 ┌───────────────────────────────┐
 │     Energy Consumption Data   │
 └───────────────┬───────────────┘
@@ -149,24 +177,27 @@ Potential visualizations include:
 │ Cost & Energy Savings         │
 │         Estimation            │
 └───────────────────────────────┘
+```
 
+---
 
-# 🛠️ Technology Stack
+## 🛠️ Technology Stack
 
-| Component               | Technology                 |
-| ----------------------- | -------------------------- |
-| Programming Language    | Python                     |
-| Data Processing         | Pandas, NumPy              |
-| Machine Learning        | Scikit-learn               |
-| Data Visualization      | Matplotlib                 |
-| Application Layer       | Python                     |
-| Dataset                 | Simulated Home Energy Data |
+| Component | Technology |
+|---|---|
+| Programming Language | Python |
+| Data Processing | Pandas, NumPy |
+| Machine Learning | Scikit-learn |
+| Data Visualization | Matplotlib |
+| Application Layer | Python |
+| Dataset | Simulated Home Energy Data |
 | Development Environment | Jupyter Notebook / VS Code |
 
+---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-
+```
 home-energy-optimization/
 │
 ├── data/
@@ -187,79 +218,72 @@ home-energy-optimization/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+```
 
+---
 
-# 📊 Example Insights
+## 📊 Example Insights
 
 The system can generate insights such as:
 
-### ⚠️ High Energy Consumption
-
+**⚠️ High Energy Consumption**
 > Air conditioning and refrigeration contribute significantly to total household electricity consumption.
 
-### 🕒 Usage Optimization
-
+**🕒 Usage Optimization**
 > Shifting selected high-power appliances to suitable operating hours may reduce electricity costs under time-dependent tariffs.
 
-### 📉 Potential Savings
-
+**📉 Potential Savings**
 > Based on simulated consumption patterns, optimized usage could potentially reduce monthly energy consumption by approximately **8–15%**.
 
-### 🌱 Sustainability
-
+**🌱 Sustainability**
 > Reducing unnecessary electricity consumption can also decrease the associated environmental impact of household energy usage.
 
+---
 
-# 📈 Example Dashboard KPIs
+## 📈 Example Dashboard KPIs
 
 A future dashboard can display:
 
-| KPI                   |         Example |
-| --------------------- | --------------: |
-| Total Consumption     |         420 kWh |
-| Monthly Cost          |          ₹3,150 |
-| Highest Consumer      | Air Conditioner |
-| Peak Usage            |    7 PM – 10 PM |
-| Potential Saving      |          55 kWh |
-| Potential Cost Saving |            ₹410 |
-| Estimated Reduction   |             13% |
+| KPI | Example |
+|---|---:|
+| Total Consumption | 420 kWh |
+| Monthly Cost | ₹3,150 |
+| Highest Consumer | Air Conditioner |
+| Peak Usage | 7 PM – 10 PM |
+| Potential Saving | 55 kWh |
+| Potential Cost Saving | ₹410 |
+| Estimated Reduction | 13% |
 
 > Values above are illustrative examples and should not be interpreted as actual household measurements.
 
+---
 
-# 🤖 AI/ML Component
+## 🤖 AI/ML Component
 
 The system can progressively incorporate machine-learning techniques to make recommendations more intelligent.
 
-### Potential ML applications
+### Potential ML Applications
 
-**Consumption Prediction**
+| Application | Description |
+|---|---|
+| **Consumption Prediction** | Predict future household electricity consumption using historical data |
+| **Anomaly Detection** | Identify unusual electricity consumption that deviates significantly from normal patterns |
+| **Usage Pattern Clustering** | Group similar consumption behaviors to identify different household usage profiles |
+| **Recommendation Personalization** | Generate recommendations based on individual household consumption behavior rather than generic rules |
 
-Predict future household electricity consumption using historical data.
+### Possible Techniques
 
-**Anomaly Detection**
+- Linear Regression
+- Random Forest
+- K-Means Clustering
+- Isolation Forest
+- Time-series forecasting
 
-Identify unusual electricity consumption that deviates significantly from normal patterns.
+---
 
-**Usage Pattern Clustering**
+## 🔬 Data Pipeline
 
-Group similar consumption behaviors to identify different household usage profiles.
-
-**Recommendation Personalization**
-
-Generate recommendations based on individual household consumption behavior rather than using generic rules.
-
-Possible techniques include:
-
-* Linear Regression
-* Random Forest
-* K-Means Clustering
-* Isolation Forest
-* Time-series forecasting
-
-
-# 🔬 Data Pipeline
-
+```
 Raw Energy Data
       ↓
 Data Cleaning
@@ -277,45 +301,47 @@ Recommendation Generation
 Visualization
       ↓
 Energy Optimization
-
-
-# 🌱 Impact
-
-The project aims to contribute toward:
-
-* ⚡ Reduced electricity consumption
-* 💰 Lower household electricity costs
-* 📊 Better understanding of energy usage
-* 🔌 Improved appliance efficiency
-* 🌱 Reduced environmental impact
-* 🧠 Data-driven energy decisions
-* 🏠 Smarter and more sustainable homes
+```
 
 ---
 
-# 🔮 Future Scope
+## 🌱 Impact
+
+The project aims to contribute toward:
+
+- ⚡ Reduced electricity consumption
+- 💰 Lower household electricity costs
+- 📊 Better understanding of energy usage
+- 🔌 Improved appliance efficiency
+- 🌱 Reduced environmental impact
+- 🧠 Data-driven energy decisions
+- 🏠 Smarter and more sustainable homes
+
+---
+
+## 🔮 Future Scope
 
 The system can be extended into a real-world smart energy management platform.
 
-### Planned possibilities
+### Planned Possibilities
 
-* 📡 Integration with IoT smart meters
-* ⚡ Real-time electricity monitoring
-* 🔌 Appliance-level smart sensors
-* 💰 Dynamic electricity tariff integration
-* 🌦️ Weather-aware energy recommendations
-* ☀️ Solar-panel optimization
-* 🔋 Battery-storage optimization
-* 📱 Mobile application
-* 🤖 Personalized ML models for individual households
-* 🌱 Carbon-footprint tracking
-* 🚨 Real-time abnormal-consumption alerts
-* 🏠 Smart-home automation
-* 🔮 Future energy-demand forecasting
+- 📡 Integration with IoT smart meters
+- ⚡ Real-time electricity monitoring
+- 🔌 Appliance-level smart sensors
+- 💰 Dynamic electricity tariff integration
+- 🌦️ Weather-aware energy recommendations
+- ☀️ Solar-panel optimization
+- 🔋 Battery-storage optimization
+- 📱 Mobile application
+- 🤖 Personalized ML models for individual households
+- 🌱 Carbon-footprint tracking
+- 🚨 Real-time abnormal-consumption alerts
+- 🏠 Smart-home automation
+- 🔮 Future energy-demand forecasting
 
+### 💡 Future Architecture
 
-# 💡 Future Architecture
-
+```
               ┌─────────────────┐
               │   Smart Meter   │
               └────────┬────────┘
@@ -347,48 +373,87 @@ The system can be extended into a real-world smart energy management platform.
           ┌──────────────────────────┐
           │ Web / Mobile Dashboard   │
           └──────────────────────────┘
+```
 
+---
 
-# ⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
-## 1. Clone the Repository
+### 1. Clone the Repository
 
-## 2. Create a Virtual Environment
+```bash
+git clone https://github.com/<your-username>/home-energy-optimization.git
+cd home-energy-optimization
+```
 
-### Windows
+### 2. Create a Virtual Environment
 
-### Linux / macOS
+**Windows**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
-## 3. Install Dependencies
+**Linux / macOS**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
-## 4. Run the Application
+### 3. Install Dependencies
 
-# 📋 Requirements
+```bash
+pip install -r requirements.txt
+```
 
-Example `requirements.txt`:
+### 4. Run the Application
 
+```bash
+python src/main.py
+```
+
+To explore the analysis interactively:
+
+```bash
+jupyter notebook notebooks/energy_analysis.ipynb
+```
+
+To launch the dashboard:
+
+```bash
+python dashboard/dashboard.py
+```
+
+---
+
+## 📋 Requirements
+
+`requirements.txt`:
+
+```
 pandas
 numpy
 scikit-learn
 matplotlib
 jupyter
+```
 
+---
 
-
-# 🧪 Sample Use Case
+## 🧪 Sample Use Case
 
 Consider a household where the system detects:
 
-
+```
 Air Conditioner → High consumption
 Refrigerator    → Continuous consumption
 Water Heater    → High power usage
 Lighting        → Moderate consumption
-
+```
 
 The recommendation engine may respond with:
 
-
+```
 ⚠️ High AC consumption detected.
 
 💡 Recommendation:
@@ -399,20 +464,23 @@ Reduced monthly electricity consumption.
 
 💰 Potential Benefit:
 Lower electricity expenditure.
+```
 
+---
 
-# 🎯 Project USP
+## 🎯 Project USP
 
 ### What makes this project different?
 
 Traditional energy dashboards primarily **display electricity consumption**.
 
-This project aims to go one step further:
-
-Traditional System
+**Traditional System**
+```
 Consumption → Visualization
+```
 
-This Project
+**This Project**
+```
 Consumption
      ↓
 Analysis
@@ -424,46 +492,63 @@ AI Recommendations
 Optimization
      ↓
 Potential Savings
-
+```
 
 The focus is therefore not only on **monitoring energy**, but also on **helping users make better energy-consumption decisions**.
 
+---
 
-# 🏆 Hackathon Context
+## 🏆 Hackathon Context
 
 **Project:** Home Energy Optimization
 **Domain:** Artificial Intelligence / Machine Learning / Sustainable Energy
 
 The project was developed as an educational/hackathon-oriented solution demonstrating how AI and data analytics can be applied to household energy management.
 
+---
 
-# 👥 Team
+## 👥 Team
 
 **Home Energy Optimization**
 
-### Domain
+| Role | Member |
+|---|---|
+| Domain | AI / ML / Sustainable Energy |
 
-# 📌 Disclaimer
+*(Add team member names and roles here.)*
+
+---
+
+## 📌 Disclaimer
 
 This project currently uses **simulated household energy-consumption data**. Energy savings, electricity costs, and optimization estimates are therefore illustrative and depend on the assumptions used by the system.
 
 For real-world deployment, the system would require actual smart-meter data, accurate local tariff structures, device-level measurements, and appropriate validation.
 
+---
 
-# 📄 License
+## 📄 License
 
 This project is developed for **educational and hackathon purposes**.
 
 You are free to modify, extend, and experiment with the project for learning and development purposes.
 
-# ⭐ Support
+---
+
+## ⭐ Support
+
 If you find this project useful:
-* ⭐ Star the repository
-* 🍴 Fork the project
-* 🐛 Report issues
-* 💡 Suggest improvements
-* 🤝 Contribute to the project
+
+- ⭐ Star the repository
+- 🍴 Fork the project
+- 🐛 Report issues
+- 💡 Suggest improvements
+- 🤝 Contribute to the project
+
+---
 
 ## ⚡ Turning Energy Data into Energy Intelligence
+
 > **Measure → Analyze → Predict → Recommend → Optimize**
+
 **Build smarter homes. Reduce energy waste. Create a more sustainable future. 🌱**
