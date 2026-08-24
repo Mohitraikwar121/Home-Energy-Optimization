@@ -9,8 +9,6 @@
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)](https://matplotlib.org/)
 [![License](https://img.shields.io/badge/License-Educational-green)](#-license)
 
-
-
 ## 📌 Overview
 
 **Home Energy Optimization** is an AI/ML-based system designed to help households understand and optimize their electricity consumption.
