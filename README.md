@@ -36,7 +36,6 @@
 - [License](#-license)
 - [Support](#-support)
 
----
 
 ## 📌 Overview
 
@@ -60,7 +59,6 @@ Instead of simply showing electricity usage, the system focuses on answering:
 | 📉 Potential energy savings | Quantifies possible efficiency gains |
 | 🌱 Sustainability impact | Estimates environmental benefit of savings |
 
----
 
 ## 🎯 Objectives
 
@@ -75,7 +73,6 @@ The primary objectives of the project are to:
 - Estimate potential energy and cost savings
 - Encourage sustainable and data-driven energy consumption
 
----
 
 ## 🚀 Key Features
 
@@ -95,14 +92,14 @@ The system can identify:
 
 Break down total household consumption by individual appliances.
 
-```
+
 Air Conditioner     ████████████████████  38%
 Refrigerator        ████████████          24%
 Water Heater        █████████             18%
 Washing Machine     █████                  10%
 Lighting            ████                    7%
 Others              ██                      3%
-```
+
 
 This makes it easier to identify the appliances responsible for the largest share of energy usage.
 
@@ -141,45 +138,44 @@ The dashboard provides visual insights into household energy consumption, includ
 - ⚠️ High-consumption alerts
 - 🌱 Sustainability indicators
 
----
+
 
 ## 🧠 System Workflow
 
-```
+
 ┌───────────────────────────────┐
-│     Energy Consumption Data   │
+│     Energy Consumption Data         │
 └───────────────┬───────────────┘
-                ↓
+                   ↓
 ┌───────────────────────────────┐
-│       Data Preprocessing      │
-│   Cleaning • Transformation   │
+│       Data Preprocessing           │
+│   Cleaning • Transformation        │
 └───────────────┬───────────────┘
-                ↓
+                   ↓
 ┌───────────────────────────────┐
 │      Consumption Analysis     │
 │ Appliance • Time • Trends     │
 └───────────────┬───────────────┘
-                ↓
+                   ↓
 ┌───────────────────────────────┐
 │       Pattern Detection       │
 │ Peaks • Anomalies • Trends    │
 └───────────────┬───────────────┘
-                ↓
+                   ↓
 ┌───────────────────────────────┐
 │   AI Recommendation Engine    │
 └───────────────┬───────────────┘
-                ↓
+                   ↓
 ┌───────────────────────────────┐
 │ Energy-Saving Recommendations │
 └───────────────┬───────────────┘
-                ↓
+                   ↓
 ┌───────────────────────────────┐
 │ Cost & Energy Savings         │
 │         Estimation            │
 └───────────────────────────────┘
-```
 
----
+
 
 ## 🛠️ Technology Stack
 
@@ -193,11 +189,11 @@ The dashboard provides visual insights into household energy consumption, includ
 | Dataset | Simulated Home Energy Data |
 | Development Environment | Jupyter Notebook / VS Code |
 
----
+
 
 ## 📂 Project Structure
 
-```
+
 home-energy-optimization/
 │
 ├── data/
@@ -218,9 +214,8 @@ home-energy-optimization/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-```
 
----
+
 
 ## 📊 Example Insights
 
@@ -238,7 +233,6 @@ The system can generate insights such as:
 **🌱 Sustainability**
 > Reducing unnecessary electricity consumption can also decrease the associated environmental impact of household energy usage.
 
----
 
 ## 📈 Example Dashboard KPIs
 
@@ -256,7 +250,6 @@ A future dashboard can display:
 
 > Values above are illustrative examples and should not be interpreted as actual household measurements.
 
----
 
 ## 🤖 AI/ML Component
 
@@ -279,11 +272,9 @@ The system can progressively incorporate machine-learning techniques to make rec
 - Isolation Forest
 - Time-series forecasting
 
----
 
 ## 🔬 Data Pipeline
 
-```
 Raw Energy Data
       ↓
 Data Cleaning
@@ -301,9 +292,8 @@ Recommendation Generation
 Visualization
       ↓
 Energy Optimization
-```
 
----
+
 
 ## 🌱 Impact
 
@@ -317,7 +307,7 @@ The project aims to contribute toward:
 - 🧠 Data-driven energy decisions
 - 🏠 Smarter and more sustainable homes
 
----
+
 
 ## 🔮 Future Scope
 
@@ -341,25 +331,24 @@ The system can be extended into a real-world smart energy management platform.
 
 ### 💡 Future Architecture
 
-```
+
               ┌─────────────────┐
-              │   Smart Meter   │
+              │   Smart Meter      │
               └────────┬────────┘
-                       ↓
+                         ↓
               ┌─────────────────┐
               │   IoT Devices   │
               └────────┬────────┘
-                       ↓
+                         ↓
               ┌─────────────────┐
               │ Data Collection │
               └────────┬────────┘
-                       ↓
+                         ↓
               ┌─────────────────┐
               │ Data Processing │
               └────────┬────────┘
-                       ↓
-          ┌──────────────────────────┐
-          │ AI / ML Analysis Engine  │
+                         ↓
+          ┌──────────────────────────┐     │ AI / ML Analysis Engine       │
           └────────────┬─────────────┘
                        ↓
           ┌──────────────────────────┐
@@ -373,9 +362,8 @@ The system can be extended into a real-world smart energy management platform.
           ┌──────────────────────────┐
           │ Web / Mobile Dashboard   │
           └──────────────────────────┘
-```
 
----
+
 
 ## ⚙️ Installation & Setup
 
@@ -430,7 +418,7 @@ python dashboard/dashboard.py
 
 `requirements.txt`:
 
-```
+
 pandas
 numpy
 scikit-learn
@@ -438,7 +426,7 @@ matplotlib
 jupyter
 ```
 
----
+
 
 ## 🧪 Sample Use Case
 
@@ -464,9 +452,7 @@ Reduced monthly electricity consumption.
 
 💰 Potential Benefit:
 Lower electricity expenditure.
-```
 
----
 
 ## 🎯 Project USP
 
@@ -480,7 +466,7 @@ Consumption → Visualization
 ```
 
 **This Project**
-```
+
 Consumption
      ↓
 Analysis
@@ -492,11 +478,10 @@ AI Recommendations
 Optimization
      ↓
 Potential Savings
-```
+
 
 The focus is therefore not only on **monitoring energy**, but also on **helping users make better energy-consumption decisions**.
 
----
 
 ## 🏆 Hackathon Context
 
@@ -505,7 +490,6 @@ The focus is therefore not only on **monitoring energy**, but also on **helping 
 
 The project was developed as an educational/hackathon-oriented solution demonstrating how AI and data analytics can be applied to household energy management.
 
----
 
 ## 👥 Team
 
@@ -517,7 +501,6 @@ The project was developed as an educational/hackathon-oriented solution demonstr
 
 *(Add team member names and roles here.)*
 
----
 
 ## 📌 Disclaimer
 
@@ -525,7 +508,6 @@ This project currently uses **simulated household energy-consumption data**. Ene
 
 For real-world deployment, the system would require actual smart-meter data, accurate local tariff structures, device-level measurements, and appropriate validation.
 
----
 
 ## 📄 License
 
@@ -533,7 +515,7 @@ This project is developed for **educational and hackathon purposes**.
 
 You are free to modify, extend, and experiment with the project for learning and development purposes.
 
----
+
 
 ## ⭐ Support
 
@@ -545,7 +527,6 @@ If you find this project useful:
 - 💡 Suggest improvements
 - 🤝 Contribute to the project
 
----
 
 ## ⚡ Turning Energy Data into Energy Intelligence
 
