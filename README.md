@@ -10,7 +10,6 @@
 [![License](https://img.shields.io/badge/License-Educational-green)](#-license)
 [![Status](https://img.shields.io/badge/Status-Hackathon%20Prototype-orange)](#-hackathon-context)
 
----
 
 ## 📑 Table of Contents
 
@@ -153,26 +152,26 @@ The dashboard provides visual insights into household energy consumption, includ
 └───────────────┬───────────────┘
                    ↓
 ┌───────────────────────────────┐
-│      Consumption Analysis     │
-│ Appliance • Time • Trends     │
+│      Consumption Analysis           │
+│ Appliance • Time • Trends           │
 └───────────────┬───────────────┘
                    ↓
 ┌───────────────────────────────┐
-│       Pattern Detection       │
-│ Peaks • Anomalies • Trends    │
+│       Pattern Detection             │
+│ Peaks • Anomalies • Trends          │
 └───────────────┬───────────────┘
                    ↓
 ┌───────────────────────────────┐
-│   AI Recommendation Engine    │
+│   AI Recommendation Engine          │
 └───────────────┬───────────────┘
                    ↓
 ┌───────────────────────────────┐
-│ Energy-Saving Recommendations │
+│ Energy-Saving Recommendations.      │  
 └───────────────┬───────────────┘
                    ↓
 ┌───────────────────────────────┐
-│ Cost & Energy Savings         │
-│         Estimation            │
+│ Cost & Energy Savings               │
+│         Estimation                  │
 └───────────────────────────────┘
 
 
