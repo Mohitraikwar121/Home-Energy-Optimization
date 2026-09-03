@@ -143,35 +143,35 @@ The dashboard provides visual insights into household energy consumption, includ
 
 
 ┌───────────────────────────────┐
-│     Energy Consumption Data         │
+│     Energy Consumption Data   │
 └───────────────┬───────────────┘
-                   ↓
+                ↓
 ┌───────────────────────────────┐
-│       Data Preprocessing           │
-│   Cleaning • Transformation        │
+│       Data Preprocessing      │
+│   Cleaning • Transformation   │
 └───────────────┬───────────────┘
-                   ↓
+                ↓
 ┌───────────────────────────────┐
-│      Consumption Analysis           │
-│ Appliance • Time • Trends           │
+│      Consumption Analysis     │
+│ Appliance • Time • Trends     │
 └───────────────┬───────────────┘
-                   ↓
+                ↓
 ┌───────────────────────────────┐
-│       Pattern Detection             │
-│ Peaks • Anomalies • Trends          │
+│       Pattern Detection       │
+│ Peaks • Anomalies • Trends    │
 └───────────────┬───────────────┘
-                   ↓
+                ↓
 ┌───────────────────────────────┐
-│   AI Recommendation Engine          │
+│   AI Recommendation Engine    │
 └───────────────┬───────────────┘
-                   ↓
+                ↓
 ┌───────────────────────────────┐
-│ Energy-Saving Recommendations.      │  
+│ Energy-Saving Recommendations.│  
 └───────────────┬───────────────┘
-                   ↓
+                ↓
 ┌───────────────────────────────┐
-│ Cost & Energy Savings               │
-│         Estimation                  │
+│ Cost & Energy Savings         │
+│         Estimation            │
 └───────────────────────────────┘
 
 
