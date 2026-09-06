@@ -138,9 +138,7 @@ The dashboard provides visual insights into household energy consumption, includ
 - 🌱 Sustainability indicators
 
 
-
 ## 🧠 System Workflow
-
 
 ┌───────────────────────────────┐
 │     Energy Consumption Data   │
@@ -189,9 +187,7 @@ The dashboard provides visual insights into household energy consumption, includ
 | Development Environment | Jupyter Notebook / VS Code |
 
 
-
 ## 📂 Project Structure
-
 
 home-energy-optimization/
 │
@@ -213,8 +209,6 @@ home-energy-optimization/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-
-
 
 ## 📊 Example Insights
 
@@ -293,9 +287,7 @@ Visualization
 Energy Optimization
 
 
-
 ## 🌱 Impact
-
 The project aims to contribute toward:
 
 - ⚡ Reduced electricity consumption
@@ -305,8 +297,6 @@ The project aims to contribute toward:
 - 🌱 Reduced environmental impact
 - 🧠 Data-driven energy decisions
 - 🏠 Smarter and more sustainable homes
-
-
 
 ## 🔮 Future Scope
 
@@ -366,52 +356,17 @@ The system can be extended into a real-world smart energy management platform.
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/<your-username>/home-energy-optimization.git
-cd home-energy-optimization
-```
+### 1. Clone the Repositor
 
 ### 2. Create a Virtual Environment
 
-**Windows**
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
-
-**Linux / macOS**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
 ### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
 
 ### 4. Run the Application
 
-```bash
-python src/main.py
-```
-
 To explore the analysis interactively:
 
-```bash
-jupyter notebook notebooks/energy_analysis.ipynb
-```
-
 To launch the dashboard:
-
-```bash
-python dashboard/dashboard.py
-```
-
----
 
 ## 📋 Requirements
 
