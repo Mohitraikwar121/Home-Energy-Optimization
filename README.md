@@ -11,7 +11,6 @@
 [![License](https://img.shields.io/badge/License-Educational-green)](#-license)
 [![Status](https://img.shields.io/badge/Status-Hackathon%20Prototype-orange)](#-hackathon-context)
 
-
 ## 📑 Table of Contents
 
 - [Overview](#-overview)
@@ -72,7 +71,6 @@ The primary objectives of the project are to:
 - Generate AI-assisted energy-saving recommendations
 - Estimate potential energy and cost savings
 - Encourage sustainable and data-driven energy consumption
-
 
 ## 🚀 Key Features
 
@@ -323,22 +321,22 @@ The system can be extended into a real-world smart energy management platform.
 
 
               ┌─────────────────┐
-              │   Smart Meter      │
+              │   Smart Meter   │
               └────────┬────────┘
-                         ↓
+                       ↓
               ┌─────────────────┐
               │   IoT Devices   │
               └────────┬────────┘
-                         ↓
+                       ↓
               ┌─────────────────┐
               │ Data Collection │
               └────────┬────────┘
-                         ↓
+                       ↓
               ┌─────────────────┐
               │ Data Processing │
               └────────┬────────┘
-                         ↓
-          ┌──────────────────────────┐     │ AI / ML Analysis Engine       │
+                       ↓
+          ┌──────────────────────────┐     │ AI / ML Analysis Engine │
           └────────────┬─────────────┘
                        ↓
           ┌──────────────────────────┐
@@ -350,7 +348,7 @@ The system can be extended into a real-world smart energy management platform.
           └────────────┬─────────────┘
                        ↓
           ┌──────────────────────────┐
-          │ Web / Mobile Dashboard   │
+          │  Web / Mobile Dashboard  │
           └──────────────────────────┘
 
 
@@ -379,24 +377,20 @@ numpy
 scikit-learn
 matplotlib
 jupyter
-```
+
 
 
 
 ## 🧪 Sample Use Case
 
 Consider a household where the system detects:
-
-```
 Air Conditioner → High consumption
 Refrigerator    → Continuous consumption
 Water Heater    → High power usage
 Lighting        → Moderate consumption
-```
 
 The recommendation engine may respond with:
 
-```
 ⚠️ High AC consumption detected.
 
 💡 Recommendation:
@@ -416,9 +410,7 @@ Lower electricity expenditure.
 Traditional energy dashboards primarily **display electricity consumption**.
 
 **Traditional System**
-```
 Consumption → Visualization
-```
 
 **This Project**
 
@@ -434,22 +426,15 @@ Optimization
      ↓
 Potential Savings
 
-
 The focus is therefore not only on **monitoring energy**, but also on **helping users make better energy-consumption decisions**.
-
-
 ## 🏆 Hackathon Context
-
 **Project:** Home Energy Optimization
 **Domain:** Artificial Intelligence / Machine Learning / Sustainable Energy
 
 The project was developed as an educational/hackathon-oriented solution demonstrating how AI and data analytics can be applied to household energy management.
-
-
 ## 👥 Team
 
 **Home Energy Optimization**
-
 | Role | Member |
 |---|---|
 | Domain | AI / ML / Sustainable Energy |
@@ -460,20 +445,14 @@ The project was developed as an educational/hackathon-oriented solution demonstr
 ## 📌 Disclaimer
 
 This project currently uses **simulated household energy-consumption data**. Energy savings, electricity costs, and optimization estimates are therefore illustrative and depend on the assumptions used by the system.
-
 For real-world deployment, the system would require actual smart-meter data, accurate local tariff structures, device-level measurements, and appropriate validation.
 
 
 ## 📄 License
-
 This project is developed for **educational and hackathon purposes**.
-
 You are free to modify, extend, and experiment with the project for learning and development purposes.
 
-
-
 ## ⭐ Support
-
 If you find this project useful:
 
 - ⭐ Star the repository
@@ -484,7 +463,5 @@ If you find this project useful:
 
 
 ## ⚡ Turning Energy Data into Energy Intelligence
-
 > **Measure → Analyze → Predict → Recommend → Optimize**
-
 **Build smarter homes. Reduce energy waste. Create a more sustainable future. 🌱**
