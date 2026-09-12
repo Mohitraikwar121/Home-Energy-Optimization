@@ -1,6 +1,5 @@
  # ⚡ Home Energy Optimization
 
-
 > **An AI-powered energy intelligence system that analyzes household electricity consumption, identifies inefficient usage patterns, and provides actionable recommendations to reduce energy consumption and electricity costs.**
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
@@ -171,8 +170,6 @@ The dashboard provides visual insights into household energy consumption, includ
 │         Estimation            │
 └───────────────────────────────┘
 
-
-
 ## 🛠️ Technology Stack
 
 | Component | Technology |
@@ -184,7 +181,6 @@ The dashboard provides visual insights into household energy consumption, includ
 | Application Layer | Python |
 | Dataset | Simulated Home Energy Data |
 | Development Environment | Jupyter Notebook / VS Code |
-
 
 ## 📂 Project Structure
 
@@ -298,11 +294,9 @@ The project aims to contribute toward:
 - 🏠 Smarter and more sustainable homes
 
 ## 🔮 Future Scope
-
 The system can be extended into a real-world smart energy management platform.
 
 ### Planned Possibilities
-
 - 📡 Integration with IoT smart meters
 - ⚡ Real-time electricity monitoring
 - 🔌 Appliance-level smart sensors
@@ -318,7 +312,6 @@ The system can be extended into a real-world smart energy management platform.
 - 🔮 Future energy-demand forecasting
 
 ### 💡 Future Architecture
-
 
               ┌─────────────────┐
               │   Smart Meter   │
@@ -354,7 +347,6 @@ The system can be extended into a real-world smart energy management platform.
 
 
 ## ⚙️ Installation & Setup
-
 ### 1. Clone the Repositor
 
 ### 2. Create a Virtual Environment
@@ -368,21 +360,14 @@ To explore the analysis interactively:
 To launch the dashboard:
 
 ## 📋 Requirements
-
 `requirements.txt`:
-
-
 pandas
 numpy
 scikit-learn
 matplotlib
 jupyter
 
-
-
-
 ## 🧪 Sample Use Case
-
 Consider a household where the system detects:
 Air Conditioner → High consumption
 Refrigerator    → Continuous consumption
@@ -413,7 +398,6 @@ Traditional energy dashboards primarily **display electricity consumption**.
 Consumption → Visualization
 
 **This Project**
-
 Consumption
      ↓
 Analysis
@@ -430,10 +414,9 @@ The focus is therefore not only on **monitoring energy**, but also on **helping 
 ## 🏆 Hackathon Context
 **Project:** Home Energy Optimization
 **Domain:** Artificial Intelligence / Machine Learning / Sustainable Energy
-
 The project was developed as an educational/hackathon-oriented solution demonstrating how AI and data analytics can be applied to household energy management.
-## 👥 Team
 
+## 👥 Team
 **Home Energy Optimization**
 | Role | Member |
 |---|---|
@@ -441,12 +424,9 @@ The project was developed as an educational/hackathon-oriented solution demonstr
 
 *(Add team member names and roles here.)*
 
-
 ## 📌 Disclaimer
-
 This project currently uses **simulated household energy-consumption data**. Energy savings, electricity costs, and optimization estimates are therefore illustrative and depend on the assumptions used by the system.
 For real-world deployment, the system would require actual smart-meter data, accurate local tariff structures, device-level measurements, and appropriate validation.
-
 
 ## 📄 License
 This project is developed for **educational and hackathon purposes**.
@@ -454,13 +434,11 @@ You are free to modify, extend, and experiment with the project for learning and
 
 ## ⭐ Support
 If you find this project useful:
-
 - ⭐ Star the repository
 - 🍴 Fork the project
 - 🐛 Report issues
 - 💡 Suggest improvements
 - 🤝 Contribute to the project
-
 
 ## ⚡ Turning Energy Data into Energy Intelligence
 > **Measure → Analyze → Predict → Recommend → Optimize**
