@@ -1,5 +1,4 @@
  # ⚡ Home Energy Optimization
-
 > **An AI-powered energy intelligence system that analyzes household electricity consumption, identifies inefficient usage patterns, and provides actionable recommendations to reduce energy consumption and electricity costs.**
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
@@ -57,9 +56,7 @@ Instead of simply showing electricity usage, the system focuses on answering:
 | 📉 Potential energy savings | Quantifies possible efficiency gains |
 | 🌱 Sustainability impact | Estimates environmental benefit of savings |
 
-
 ## 🎯 Objectives
-
 The primary objectives of the project are to:
 
 - Monitor household electricity consumption
@@ -72,13 +69,11 @@ The primary objectives of the project are to:
 - Encourage sustainable and data-driven energy consumption
 
 ## 🚀 Key Features
-
 ### 1. ⚡ Energy Consumption Analysis
 
 Analyze historical and simulated electricity-consumption data to understand how energy is being consumed over time.
 
 The system can identify:
-
 - High-consumption days
 - Low-consumption periods
 - Daily usage trends
