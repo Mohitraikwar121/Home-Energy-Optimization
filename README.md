@@ -33,9 +33,7 @@
 - [License](#-license)
 - [Support](#-support)
 
-
 ## 📌 Overview
-
 **Home Energy Optimization** is an AI/ML-based system designed to help households understand and optimize their electricity consumption.
 
 The system processes simulated household energy-consumption data, analyzes appliance-level usage, detects consumption patterns, estimates electricity costs, and generates intelligent recommendations for improving energy efficiency.
@@ -70,9 +68,7 @@ The primary objectives of the project are to:
 
 ## 🚀 Key Features
 ### 1. ⚡ Energy Consumption Analysis
-
 Analyze historical and simulated electricity-consumption data to understand how energy is being consumed over time.
-
 The system can identify:
 - High-consumption days
 - Low-consumption periods
@@ -81,9 +77,7 @@ The system can identify:
 - Sudden consumption increases
 
 ### 2. 🔌 Appliance-Level Analysis
-
 Break down total household consumption by individual appliances.
-
 
 Air Conditioner     ████████████████████  38%
 Refrigerator        ████████████          24%
@@ -96,7 +90,6 @@ Others              ██                      3%
 This makes it easier to identify the appliances responsible for the largest share of energy usage.
 
 ### 3. 🧠 AI-Based Recommendation Engine
-
 The recommendation engine converts consumption patterns into actionable suggestions, such as:
 
 - Reduce excessive air-conditioner usage
@@ -109,17 +102,14 @@ The recommendation engine converts consumption patterns into actionable suggesti
 The goal is to transform **raw consumption data into practical decisions**.
 
 ### 4. 💰 Electricity Cost Estimation
-
 The system estimates electricity expenses using consumption data and configurable tariff assumptions. Users can compare current consumption with optimized scenarios to understand the possible financial impact.
 
 ### 5. 📉 Energy & Cost Savings Analysis
-
 The system estimates how much energy and money could potentially be saved by following recommended actions.
 
 > **Note:** Savings are estimates based on simulated data and assumed consumption/tariff conditions.
 
 ### 6. 📊 Interactive Dashboard
-
 The dashboard provides visual insights into household energy consumption, including:
 
 - 📈 Daily consumption trends
@@ -177,8 +167,8 @@ The dashboard provides visual insights into household energy consumption, includ
 | Dataset | Simulated Home Energy Data |
 | Development Environment | Jupyter Notebook / VS Code |
 
-## 📂 Project Structure
 
+## 📂 Project Structure
 home-energy-optimization/
 │
 ├── data/
