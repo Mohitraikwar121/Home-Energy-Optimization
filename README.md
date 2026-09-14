@@ -10,7 +10,6 @@
 [![Status](https://img.shields.io/badge/Status-Hackathon%20Prototype-orange)](#-hackathon-context)
 
 ## 📑 Table of Contents
-
 - [Overview](#-overview)
 - [Objectives](#-objectives)
 - [Key Features](#-key-features)
@@ -32,7 +31,6 @@
 - [Disclaimer](#-disclaimer)
 - [License](#-license)
 - [Support](#-support)
-
 
 ## 📌 Overview
 **Home Energy Optimization** is an AI/ML-based system designed to help households understand and optimize their electricity consumption.
@@ -113,7 +111,6 @@ The system estimates how much energy and money could potentially be saved by fol
 
 ### 6. 📊 Interactive Dashboard
 The dashboard provides visual insights into household energy consumption, including:
-
 - 📈 Daily consumption trends
 - 📊 Appliance consumption comparison
 - 🕒 Peak vs. off-peak usage
@@ -128,37 +125,36 @@ The dashboard provides visual insights into household energy consumption, includ
 ┌───────────────────────────────┐
 │     Energy Consumption Data   │
 └───────────────┬───────────────┘
-                ↓
+                   ↓
 ┌───────────────────────────────┐
 │       Data Preprocessing      │
 │   Cleaning • Transformation   │
 └───────────────┬───────────────┘
-                ↓
+                   ↓
 ┌───────────────────────────────┐
 │      Consumption Analysis     │
 │ Appliance • Time • Trends     │
 └───────────────┬───────────────┘
-                ↓
+                   ↓
 ┌───────────────────────────────┐
 │       Pattern Detection       │
 │ Peaks • Anomalies • Trends    │
 └───────────────┬───────────────┘
-                ↓
+                   ↓
 ┌───────────────────────────────┐
 │   AI Recommendation Engine    │
 └───────────────┬───────────────┘
-                ↓
+                   ↓
 ┌───────────────────────────────┐
 │ Energy-Saving Recommendations.│  
 └───────────────┬───────────────┘
-                ↓
+                   ↓
 ┌───────────────────────────────┐
 │ Cost & Energy Savings         │
 │         Estimation            │
 └───────────────────────────────┘
 
 ## 🛠️ Technology Stack
-
 | Component | Technology |
 |---|---|
 | Programming Language | Python |
@@ -210,7 +206,6 @@ The system can generate insights such as:
 
 
 ## 📈 Example Dashboard KPIs
-
 A future dashboard can display:
 
 | KPI | Example |
@@ -227,11 +222,9 @@ A future dashboard can display:
 
 
 ## 🤖 AI/ML Component
-
 The system can progressively incorporate machine-learning techniques to make recommendations more intelligent.
 
 ### Potential ML Applications
-
 | Application | Description |
 |---|---|
 | **Consumption Prediction** | Predict future household electricity consumption using historical data |
@@ -240,7 +233,6 @@ The system can progressively incorporate machine-learning techniques to make rec
 | **Recommendation Personalization** | Generate recommendations based on individual household consumption behavior rather than generic rules |
 
 ### Possible Techniques
-
 - Linear Regression
 - Random Forest
 - K-Means Clustering
@@ -249,7 +241,6 @@ The system can progressively incorporate machine-learning techniques to make rec
 
 
 ## 🔬 Data Pipeline
-
 Raw Energy Data
       ↓
 Data Cleaning
@@ -271,7 +262,6 @@ Energy Optimization
 
 ## 🌱 Impact
 The project aims to contribute toward:
-
 - ⚡ Reduced electricity consumption
 - 💰 Lower household electricity costs
 - 📊 Better understanding of energy usage
@@ -301,22 +291,22 @@ The system can be extended into a real-world smart energy management platform.
 ### 💡 Future Architecture
 
               ┌─────────────────┐
-              │   Smart Meter   │
+              │   Smart Meter      │
               └────────┬────────┘
                          ↓
               ┌─────────────────┐
-              │   IoT Devices   │
+              │   IoT Devices      │
               └────────┬────────┘
                          ↓
               ┌─────────────────┐
-              │ Data Collection │
+              │ Data Collection.   │
               └────────┬────────┘
                          ↓
               ┌─────────────────┐
-              │ Data Processing │
+              │ Data Processing    │
               └────────┬────────┘
                          ↓
-          ┌──────────────────────────┐     │ AI / ML Analysis Engine │
+          ┌──────────────────────────┐     │ AI / ML Analysis Engine.      │
           └────────────┬─────────────┘
                        
           ┌──────────────────────────┐
