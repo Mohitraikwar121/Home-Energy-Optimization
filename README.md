@@ -33,6 +33,7 @@
 - [License](#-license)
 - [Support](#-support)
 
+
 ## 📌 Overview
 **Home Energy Optimization** is an AI/ML-based system designed to help households understand and optimize their electricity consumption.
 
@@ -100,6 +101,7 @@ The recommendation engine converts consumption patterns into actionable suggesti
 - Reduce repeated usage during high-demand periods
 
 The goal is to transform **raw consumption data into practical decisions**.
+
 
 ### 4. 💰 Electricity Cost Estimation
 The system estimates electricity expenses using consumption data and configurable tariff assumptions. Users can compare current consumption with optimized scenarios to understand the possible financial impact.
@@ -301,22 +303,22 @@ The system can be extended into a real-world smart energy management platform.
               ┌─────────────────┐
               │   Smart Meter   │
               └────────┬────────┘
-                       ↓
+                         ↓
               ┌─────────────────┐
               │   IoT Devices   │
               └────────┬────────┘
-                       ↓
+                         ↓
               ┌─────────────────┐
               │ Data Collection │
               └────────┬────────┘
-                       ↓
+                         ↓
               ┌─────────────────┐
               │ Data Processing │
               └────────┬────────┘
-                       ↓
+                         ↓
           ┌──────────────────────────┐     │ AI / ML Analysis Engine │
           └────────────┬─────────────┘
-                       ↓
+                       
           ┌──────────────────────────┐
           │ Recommendation Engine    │
           └────────────┬─────────────┘
@@ -328,8 +330,6 @@ The system can be extended into a real-world smart energy management platform.
           ┌──────────────────────────┐
           │  Web / Mobile Dashboard  │
           └──────────────────────────┘
-
-
 
 ## ⚙️ Installation & Setup
 ### 1. Clone the Repositor
@@ -345,7 +345,6 @@ To explore the analysis interactively:
 To launch the dashboard:
 
 ## 📋 Requirements
-`requirements.txt`:
 pandas
 numpy
 scikit-learn
@@ -362,7 +361,6 @@ Lighting        → Moderate consumption
 The recommendation engine may respond with:
 
 ⚠️ High AC consumption detected.
-
 💡 Recommendation:
 Optimize AC operating hours and avoid unnecessary usage.
 
@@ -372,9 +370,7 @@ Reduced monthly electricity consumption.
 💰 Potential Benefit:
 Lower electricity expenditure.
 
-
 ## 🎯 Project USP
-
 ### What makes this project different?
 
 Traditional energy dashboards primarily **display electricity consumption**.
