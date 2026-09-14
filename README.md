@@ -42,7 +42,6 @@ Instead of simply showing electricity usage, the system focuses on answering:
 > **"Where is energy being wasted, why is it happening, and what can be done to reduce it?"**
 
 ### The system analyzes:
-
 | Category | Description |
 |---|---|
 | ⚡ Appliance-wise consumption | Breaks down usage by individual appliance |
@@ -53,9 +52,9 @@ Instead of simply showing electricity usage, the system focuses on answering:
 | 📉 Potential energy savings | Quantifies possible efficiency gains |
 | 🌱 Sustainability impact | Estimates environmental benefit of savings |
 
+
 ## 🎯 Objectives
 The primary objectives of the project are to:
-
 - Monitor household electricity consumption
 - Identify high-energy-consuming appliances
 - Detect inefficient consumption patterns
@@ -90,7 +89,6 @@ This makes it easier to identify the appliances responsible for the largest shar
 
 ### 3. 🧠 AI-Based Recommendation Engine
 The recommendation engine converts consumption patterns into actionable suggestions, such as:
-
 - Reduce excessive air-conditioner usage
 - Shift high-power appliance usage to suitable hours
 - Avoid unnecessary standby consumption
@@ -99,7 +97,6 @@ The recommendation engine converts consumption patterns into actionable suggesti
 - Reduce repeated usage during high-demand periods
 
 The goal is to transform **raw consumption data into practical decisions**.
-
 
 ### 4. 💰 Electricity Cost Estimation
 The system estimates electricity expenses using consumption data and configurable tariff assumptions. Users can compare current consumption with optimized scenarios to understand the possible financial impact.
