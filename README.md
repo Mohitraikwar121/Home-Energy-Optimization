@@ -114,7 +114,6 @@ The dashboard provides visual insights into household energy consumption, includ
 - ⚠️ High-consumption alerts
 - 🌱 Sustainability indicators
 
-
 ## 🧠 System Workflow
 
 ┌───────────────────────────────┐
@@ -234,7 +233,6 @@ The system can progressively incorporate machine-learning techniques to make rec
 - Isolation Forest
 - Time-series forecasting
 
-
 ## 🔬 Data Pipeline
 Raw Energy Data
       ↓
@@ -253,7 +251,6 @@ Recommendation Generation
 Visualization
       ↓
 Energy Optimization
-
 
 ## 🌱 Impact
 The project aims to contribute toward:
