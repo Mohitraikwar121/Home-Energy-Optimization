@@ -52,7 +52,6 @@ Instead of simply showing electricity usage, the system focuses on answering:
 | 📉 Potential energy savings | Quantifies possible efficiency gains |
 | 🌱 Sustainability impact | Estimates environmental benefit of savings |
 
-
 ## 🎯 Objectives
 The primary objectives of the project are to:
 - Monitor household electricity consumption
@@ -83,7 +82,6 @@ Water Heater        █████████             18%
 Washing Machine     █████                  10%
 Lighting            ████                    7%
 Others              ██                      3%
-
 
 This makes it easier to identify the appliances responsible for the largest share of energy usage.
 
