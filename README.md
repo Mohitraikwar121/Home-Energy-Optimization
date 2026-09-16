@@ -34,7 +34,6 @@
 
 ## 📌 Overview
 **Home Energy Optimization** is an AI/ML-based system designed to help households understand and optimize their electricity consumption.
-
 The system processes simulated household energy-consumption data, analyzes appliance-level usage, detects consumption patterns, estimates electricity costs, and generates intelligent recommendations for improving energy efficiency.
 
 Instead of simply showing electricity usage, the system focuses on answering:
@@ -82,7 +81,6 @@ Water Heater        █████████             18%
 Washing Machine     █████                  10%
 Lighting            ████                    7%
 Others              ██                      3%
-
 This makes it easier to identify the appliances responsible for the largest share of energy usage.
 
 ### 3. 🧠 AI-Based Recommendation Engine
@@ -93,7 +91,6 @@ The recommendation engine converts consumption patterns into actionable suggesti
 - Optimize appliance operating schedules
 - Investigate unusual consumption spikes
 - Reduce repeated usage during high-demand periods
-
 The goal is to transform **raw consumption data into practical decisions**.
 
 ### 4. 💰 Electricity Cost Estimation
@@ -117,35 +114,35 @@ The dashboard provides visual insights into household energy consumption, includ
 ## 🧠 System Workflow
 
 ┌───────────────────────────────┐
-│     Energy Consumption Data   │
+│     Energy Consumption Data         │
 └───────────────┬───────────────┘
                    ↓
 ┌───────────────────────────────┐
-│       Data Preprocessing      │
-│   Cleaning • Transformation   │
+│       Data Preprocessing            │
+│   Cleaning • Transformation.        │
 └───────────────┬───────────────┘
                    ↓
 ┌───────────────────────────────┐
-│      Consumption Analysis     │
-│ Appliance • Time • Trends     │
+│      Consumption Analysis           │
+│ Appliance • Time • Trends           │
 └───────────────┬───────────────┘
                    ↓
 ┌───────────────────────────────┐
-│       Pattern Detection       │
-│ Peaks • Anomalies • Trends    │
+│       Pattern Detection             │
+│ Peaks • Anomalies • Trends          │
 └───────────────┬───────────────┘
                    ↓
 ┌───────────────────────────────┐
-│   AI Recommendation Engine    │
+│   AI Recommendation Engine          │
 └───────────────┬───────────────┘
                    ↓
 ┌───────────────────────────────┐
-│ Energy-Saving Recommendations.│  
+│ Energy-Saving Recommendations.    │  
 └───────────────┬───────────────┘
                    ↓
 ┌───────────────────────────────┐
-│ Cost & Energy Savings         │
-│         Estimation            │
+│ Cost & Energy Savings               │
+│         Estimation                  │
 └───────────────────────────────┘
 
 ## 🛠️ Technology Stack
