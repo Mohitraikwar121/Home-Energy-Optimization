@@ -38,6 +38,7 @@ The system processes simulated household energy-consumption data, analyzes appli
 
 Instead of simply showing electricity usage, the system focuses on answering:
 
+
 > **"Where is energy being wasted, why is it happening, and what can be done to reduce it?"**
 
 ### The system analyzes:
@@ -72,6 +73,7 @@ The system can identify:
 - Monthly consumption patterns
 - Sudden consumption increases
 
+
 ### 2. 🔌 Appliance-Level Analysis
 Break down total household consumption by individual appliances.
 
@@ -83,6 +85,7 @@ Lighting            ████                    7%
 Others              ██                      3%
 This makes it easier to identify the appliances responsible for the largest share of energy usage.
 
+
 ### 3. 🧠 AI-Based Recommendation Engine
 The recommendation engine converts consumption patterns into actionable suggestions, such as:
 - Reduce excessive air-conditioner usage
@@ -93,13 +96,16 @@ The recommendation engine converts consumption patterns into actionable suggesti
 - Reduce repeated usage during high-demand periods
 The goal is to transform **raw consumption data into practical decisions**.
 
+
 ### 4. 💰 Electricity Cost Estimation
 The system estimates electricity expenses using consumption data and configurable tariff assumptions. Users can compare current consumption with optimized scenarios to understand the possible financial impact.
+
 
 ### 5. 📉 Energy & Cost Savings Analysis
 The system estimates how much energy and money could potentially be saved by following recommended actions.
 
 > **Note:** Savings are estimates based on simulated data and assumed consumption/tariff conditions.
+
 
 ### 6. 📊 Interactive Dashboard
 The dashboard provides visual insights into household energy consumption, including:
@@ -110,6 +116,7 @@ The dashboard provides visual insights into household energy consumption, includ
 - 📉 Potential savings
 - ⚠️ High-consumption alerts
 - 🌱 Sustainability indicators
+
 
 ## 🧠 System Workflow
 
@@ -179,6 +186,7 @@ home-energy-optimization/
 ├── README.md
 └── LICENSE
 
+
 ## 📊 Example Insights
 
 The system can generate insights such as:
@@ -215,6 +223,7 @@ A future dashboard can display:
 ## 🤖 AI/ML Component
 The system can progressively incorporate machine-learning techniques to make recommendations more intelligent.
 
+
 ### Potential ML Applications
 | Application | Description |
 |---|---|
@@ -223,12 +232,14 @@ The system can progressively incorporate machine-learning techniques to make rec
 | **Usage Pattern Clustering** | Group similar consumption behaviors to identify different household usage profiles |
 | **Recommendation Personalization** | Generate recommendations based on individual household consumption behavior rather than generic rules |
 
+
 ### Possible Techniques
 - Linear Regression
 - Random Forest
 - K-Means Clustering
 - Isolation Forest
 - Time-series forecasting
+
 
 ## 🔬 Data Pipeline
 Raw Energy Data
@@ -249,6 +260,7 @@ Visualization
       ↓
 Energy Optimization
 
+
 ## 🌱 Impact
 The project aims to contribute toward:
 - ⚡ Reduced electricity consumption
@@ -261,6 +273,7 @@ The project aims to contribute toward:
 
 ## 🔮 Future Scope
 The system can be extended into a real-world smart energy management platform.
+
 
 ### Planned Possibilities
 - 📡 Integration with IoT smart meters
