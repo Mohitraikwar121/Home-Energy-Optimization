@@ -1,4 +1,4 @@
- # ⚡ Home Energy Optimization  
+ # ⚡ Home Energy Optimization   
 > **An AI-powered energy intelligence system that analyzes household electricity consumption, identifies inefficient usage patterns, and provides actionable recommendations to reduce energy consumption and electricity costs.**
   
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
