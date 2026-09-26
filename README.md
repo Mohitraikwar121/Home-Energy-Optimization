@@ -8,7 +8,7 @@
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)](https://matplotlib.org/)
 [![License](https://img.shields.io/badge/License-Educational-green)](#-license)
 [![Status](https://img.shields.io/badge/Status-Hackathon%20Prototype-orange)](#-hackathon-context)
-   
+          
 ## 📑 Table of Contents 
 - [Overview](#-overview)
 - [Objectives](#-objectives)
